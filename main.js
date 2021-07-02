@@ -5,7 +5,3 @@ const maps = [1, 2, 3];
 const newMaps = maps.map(x => x * 2);
 
 console.log(newMaps);
-console.log(newMaps);
-console.log(newMaps);
-console.log(newMaps);
-console.log(newMaps);
