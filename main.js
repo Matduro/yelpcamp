@@ -7,5 +7,3 @@ const newMaps = maps.map((x) => x * 2);
 
 console.log(newMaps);
 console.log(lorem);
-
-// React project
