@@ -7,3 +7,9 @@ const newMaps = maps.map((x) => x * 2);
 
 console.log(newMaps);
 console.log(lorem);
+
+const campsites = {
+  1: { campsite: "Lake Louise" },
+  2: { campsite: "Mt Robson" },
+  3: { campsite: "Fernie" },
+};
