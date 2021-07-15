@@ -20,6 +20,13 @@ const app = express();
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
+// Parse the body for POST and PUT requests
+app.use(express.urlencoded({ extended: true }));
+
+////
+// GET REQUESTS
+//////
+
 app.get("/", (req, res) => {
   res.render("home");
 });
@@ -29,9 +36,21 @@ app.get("/campgrounds", async (req, res) => {
   res.render("campgrounds/index", { campgrounds });
 });
 
+app.get("/campgrounds/new", (req, res) => {
+  res.render("campgrounds/new");
+});
+
 app.get("/campgrounds/:id", async (req, res) => {
   const campground = await Campground.findById(req.params.id);
   res.render("campgrounds/show", { campground });
+});
+
+////
+// POST REQUESTS
+//////
+
+app.post("/campgrounds", async (req, res) => {
+  res.send(req.body);
 });
 
 // app.get("/makecampground", async (req, res) => {
