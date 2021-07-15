@@ -53,6 +53,16 @@ app.get("/campgrounds/:id/edit", async (req, res) => {
 });
 
 ////
+// POST REQUESTS
+//////
+
+app.post("/campgrounds", async (req, res) => {
+  const campground = new Campground(req.body.campground);
+  await campground.save();
+  res.redirect(`/campgrounds/${campground._id}`);
+});
+
+////
 // PUT REQUESTS
 //////
 
@@ -69,13 +79,13 @@ app.put("/campgrounds/:id", async (req, res) => {
 });
 
 ////
-// POST REQUESTS
+// DELETE REQUESTS
 //////
 
-app.post("/campgrounds", async (req, res) => {
-  const campground = new Campground(req.body.campground);
-  await campground.save();
-  res.redirect(`/campgrounds/${campground._id}`);
+app.delete("/campgrounds/:id", async (req, res) => {
+  const { id } = req.params;
+  await Campground.findByIdAndDelete(id);
+  res.redirect("/campgrounds");
 });
 
 // app.get("/makecampground", async (req, res) => {
