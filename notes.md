@@ -1,7 +1,7 @@
 # MongoDB notes
-## July 6th 2021
 
 ## Insert Methods
+
 MongoDB provides the following methods for inserting documents into a collection:
 
 db.collection.insertOne()
@@ -14,3 +14,9 @@ db.collection.insert() inserts a single document or multiple documents into a co
 ## Commands
 
 show collections
+
+# Joi notes
+
+https://joi.dev/api/?v=17.4.1
+joi lets you describe your data using a simple, intuitive, and readable language.
+We used it to provide data validation for user input, and prevent users from bypassing client-side validation.
