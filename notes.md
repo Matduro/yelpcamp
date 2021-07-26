@@ -33,6 +33,18 @@ https://www.freeformatter.com/hmac-generator.html
 
 https://www.npmjs.com/package/express-session
 
+## Sessions vs Cookies
+
+Sessions are server-side files that store the user information, whereas Cookies are client-side files that contain user information on a local computer. ... The session ends when the user closes the browser or logout from the application, whereas Cookies expire at the set time.
+
+https://stackoverflow.com/questions/6253633/cookies-vs-sessions
+
+The concept is storing persistent data across page loads for a web visitor. Cookies store it directly on the client. Sessions use a cookie as a key of sorts, to associate with the data that is stored on the server side.
+
+It is preferred to use sessions because the actual values are hidden from the client, and you control when the data expires and becomes invalid. If it was all based on cookies, a user (or hacker) could manipulate their cookie data and then play requests to your site.
+
+Edit: I don't think there is any advantage to using cookies, other than simplicity. Look at it this way... Does the user have any reason to know their ID#? Typically I would say no, the user has no need for this information. Giving out information should be limited on a need to know basis. What if the user changes his cookie to have a different ID, how will your application respond? It's a security risk.
+
 # Connect Flash
 
 https://github.com/jaredhanson/connect-flash
