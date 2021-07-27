@@ -1,5 +1,5 @@
 const express = require("express");
-const router = express.Router({ mergeParams: true });
+const router = express.Router({ mergeParams: true }); // mergeParams gives us access to
 
 const Campground = require("../models/campground");
 const Review = require("../models/review");
