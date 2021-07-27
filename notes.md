@@ -50,3 +50,9 @@ Edit: I don't think there is any advantage to using cookies, other than simplici
 https://github.com/jaredhanson/connect-flash
 
 The flash is a special area of the session used for storing messages. Messages are written to the flash and cleared after being displayed to the user. The flash is typically used in combination with redirects, ensuring that the message is available to the next page that is to be rendered.
+
+## Passport for Authentication
+
+http://www.passportjs.org/
+https://github.com/jaredhanson/passport-local
+https://github.com/saintedlama/passport-local-mongoose
