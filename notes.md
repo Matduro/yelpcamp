@@ -56,3 +56,7 @@ The flash is a special area of the session used for storing messages. Messages a
 http://www.passportjs.org/
 https://github.com/jaredhanson/passport-local
 https://github.com/saintedlama/passport-local-mongoose
+
+### Starability.css - Accessible rating with animations on top
+
+https://github.com/LunarLogic/starability
