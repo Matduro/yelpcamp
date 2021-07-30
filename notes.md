@@ -60,3 +60,22 @@ https://github.com/saintedlama/passport-local-mongoose
 ### Starability.css - Accessible rating with animations on top
 
 https://github.com/LunarLogic/starability
+
+## Multer for uploading files
+
+https://github.com/expressjs/multer
+
+## Cloudinary for images
+
+https://cloudinary.com/console/c-4f67b3da8c197837403ad4cd65be87/welcome
+
+## Express Mongoose Sanitize
+
+Express 4.x middleware which sanitizes user-supplied data to prevent MongoDB Operator Injection.
+https://www.npmjs.com/package/express-mongo-sanitize
+
+## sanitize-html
+
+sanitize-html provides a simple HTML sanitizer with a clear API.
+
+https://www.npmjs.com/package/sanitize-html
