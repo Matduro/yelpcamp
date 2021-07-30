@@ -79,3 +79,9 @@ https://www.npmjs.com/package/express-mongo-sanitize
 sanitize-html provides a simple HTML sanitizer with a clear API.
 
 https://www.npmjs.com/package/sanitize-html
+
+## Helmet
+
+Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+
+https://helmetjs.github.io/
