@@ -97,3 +97,7 @@ https://www.heroku.com/
 git push heroku main
 
 See errors with command: heroku logs --tail
+
+### You can add the environment variables to Heroku from the terminal
+
+heroku config:set
