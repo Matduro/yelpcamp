@@ -101,3 +101,10 @@ See errors with command: heroku logs --tail
 ### You can add the environment variables to Heroku from the terminal
 
 heroku config:set
+
+Heroku restart command: heroku restart
+
+## Rename your app
+
+https://devcenter.heroku.com/articles/renaming-apps
+
