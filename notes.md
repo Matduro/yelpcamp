@@ -1,5 +1,7 @@
 # MongoDB notes
 
+Access Mongodb in the terminal with the command: mongo
+
 ## Insert Methods
 
 MongoDB provides the following methods for inserting documents into a collection:
