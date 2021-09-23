@@ -91,3 +91,9 @@ https://helmetjs.github.io/
 ## Deploy With Heroku
 
 https://www.heroku.com/
+
+### Push to Heroku after finishing to push to Github
+
+git push heroku main
+
+See errors with command: heroku logs --tail
